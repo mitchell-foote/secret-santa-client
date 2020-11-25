@@ -1,0 +1,75 @@
+input[type="text"]
+{
+    font-size:36px;
+    text-align: center;
+}
+
+.total-page {
+    height: 100vh;
+    width: 100vw;
+}
+
+
+.christmas-bell-font {
+    font-family: 'Christmas_Bell', Arial, Helvetica, sans-serif
+}
+
+.center-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+}
+
+.largest-text {
+    font-size: 64px;
+}
+
+.phone-sized-text {
+    font-size: xx-large
+}
+
+.christmas-input {
+    background-color: transparent;
+    border-radius: 3px;
+    margin-left: 1em;
+    margin-right: 1em;
+    width: calc(100% - 30px);
+    border: 1px solid white;
+    font-family: 'Christmas_Bell', Arial, Helvetica, sans-serif;
+    color: white;
+    min-width: 300px;
+}
+
+.christmas-input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1; /* Firefox */
+}
+  
+.christmas-input::-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: white;
+}
+  
+.christmas-input::-ms-input-placeholder { /* Microsoft Edge */
+    color: white;
+}
+
+.christmas-input:focus {
+    outline: none;
+}
+
+.white-text {
+    color: white;
+}
+
+.center-text-align {
+    text-align: center;
+}
+
+
+@font-face {
+    font-family: 'Christmas_Bell';
+    src: local('Christmas_Bell'), url(../fonts/Christmas_Bell.otf) format('opentype')
+}
